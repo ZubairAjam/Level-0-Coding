@@ -1,9 +1,9 @@
 function isSixtyFive (a,b) {
     if (a + b == 65) {
-        return "True";
+        return true;
     } else if (a == 65||b ==65) {
-        return "True";
+        return true;
     } else {
-        return "False";
+        return false;
     }
 } console.log (isSixtyFive (65,7)); 

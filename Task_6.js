@@ -8,4 +8,4 @@ function findMax() {
     }
         return max;
     }
-console.log(findMax(87,7,100,5,6));
+console.log(findMax(8,100,26));
