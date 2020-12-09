@@ -1,6 +1,6 @@
 function commonCharacters(string1, string2) {
-    var a = string1;
-    var b = string2;
+    var a = string1.toLowerCase();
+    var b = string2.toLowerCase();
     var result = [];
     for (var i = 0; i < a.length; i++) {
         for (var j = 0; j < b.length; j++) {
@@ -10,4 +10,4 @@ function commonCharacters(string1, string2) {
     }
 }
        return result;
-    }console.log(commonCharacters("Guantanamo", "orange"));
+    }console.log(commonCharacters("apple", "Guantanamo"));
