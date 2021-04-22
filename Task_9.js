@@ -7,5 +7,5 @@ function multiples() {
         }
     }
     return sum;
-    }
+}
     console.log(multiples());
