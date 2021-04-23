@@ -4,10 +4,10 @@ function commonCharacters(string1, string2) {
     var result = [];
     for (var i = 0; i < a.length; i++) {
         for (var j = 0; j < b.length; j++) {
-        if (b.indexOf(a[i]) !== -1 && result.indexOf(a[i]) === -1) {
-            result.push(a[i]);
+            if (b.indexOf(a[i]) !== -1 && result.indexOf(a[i]) === -1) {
+                result.push(a[i]);
+            }
         }
     }
-}
        return result;
-    }console.log(commonCharacters("apple", "Guantanamo"));
+}console.log(commonCharacters("applemn", "Guantanamo"));
